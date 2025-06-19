@@ -1,1 +1,10 @@
-# application.yml placeholder
+aws:
+  s3:
+    bucket-name: ${S3_BUCKET:MyBucket}
+  accessKey: ${AWS_ACCESS_KEY_ID}
+  secretKey: ${AWS_SECRET_ACCESS_KEY}
+
+spring:
+  redis:
+    host: my-redis-master.test_ns.svc.cluster.local
+    port: 6379
