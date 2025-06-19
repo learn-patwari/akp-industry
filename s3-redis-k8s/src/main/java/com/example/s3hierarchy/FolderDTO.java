@@ -1,0 +1,1 @@
+// FolderDTO.java placeholder
